@@ -1,12 +1,6 @@
 # GITHUB API - USING NODE JS
 
-## Index
-
-1. [REST API Operations in Github](#rest)
-	* [Creating a new repo](#repo)
-	* [Editing a repo to enable wiki support](#edit)
-	* [Listing branches in a given repo under an owner](#list)
-	* [Creating an issue for an existing repo](#issue)
+Clone this repository and use `npm install` to install all dependencies.
 
 ## <a name="rest"></a>REST API Operations in GITHUB
 
