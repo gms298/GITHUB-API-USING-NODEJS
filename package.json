@@ -1,0 +1,17 @@
+{
+  "name": "githubAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "createRepo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manoj Sharan",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "fs": "0.0.1-security",
+    "parse-link-header": "^1.0.0",
+    "request": "^2.81.0"
+  }
+}
