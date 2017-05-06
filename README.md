@@ -8,9 +8,9 @@
 	* [Listing branches in a given repo under an owner](#list)
 	* [Creating an issue for an existing repo](#issue)
 
-##<a name="rest"></a> REST API Operations in GITHUB
+## <a name="rest"></a>REST API Operations in GITHUB
 
-###<a name="repo"></a>Creating a new repo
+### <a name="repo"></a>Creating a new repo
 
 I will be creating a new repository called *DEMO* in Github. This is accomplished using the `POST` request.
 
@@ -28,11 +28,11 @@ File Name: createRepo.js
 
 `node createRepo.js`
 
-###<a name="edit"></a> Editing a repo to enable wiki support
+### <a name="edit"></a>Editing a repo to enable wiki support
 
 Next, I will be editing the *DEMO* repo to enable wiki support. This is accomplished using the `PATCH` request and to set the `has_wiki` parameter to `true`.
 
-####Code
+#### Code
 
 File Name: enableWiki.js
 
@@ -40,9 +40,9 @@ File Name: enableWiki.js
 
 `node enableWiki.js`
 
-###<a name="list"></a> Listing branches in a given repo under an owner
+### <a name="list"></a>Listing branches in a given repo under an owner
 
-####Code
+#### Code
 
 File Name: listBranch.js
 
@@ -50,11 +50,11 @@ File Name: listBranch.js
 
 `node listBranch.js`
 
-###<a name="issue"></a> Creating an issue for an existing repo
+### <a name="issue"></a>Creating an issue for an existing repo
 
 I will be reporting a bug on my *DEMO* repo by creating an issue. This is accomplished using the `POST` request.
 
-####Code
+#### Code
 
 File Name: issue.js
 
